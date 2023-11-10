@@ -1,0 +1,43 @@
+/* write your css code */
+.app-name {
+  height: 8vh;
+  min-height: 10vh;
+}
+.nav-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  background-color: yellow;
+  padding: 0px 30px 0px 20px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+}
+.cart-image-card {
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  height: 30px;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+.count {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (max-width: 548px) {
+  .nav-card {
+    background-color: #fff;
+  }
+}
+.cart {
+  font-size: 17px;
+  font-weight: 700;
+}
+.app-name {
+  font-size: 18px;
+  margin-top: 0px;
+  font-weight: 700;
+}
